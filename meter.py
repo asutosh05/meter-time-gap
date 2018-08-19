@@ -28,7 +28,7 @@ def select_meter_all_records_shorted(meter,conn):
     
 
 def main():
-    dataBase="C:\Work\python\meterProblem\src\meter.db"
+    dataBase="meter.db"
     conn=create_conn(dataBase)
     with conn:
         """Get All meters in list then iterate all meters one by
